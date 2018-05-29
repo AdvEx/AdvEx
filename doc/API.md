@@ -88,7 +88,7 @@ API documentation of AdvEx's backend.
 
 + Attributes (object)
     + user_id: 1 (required, string)
-    + s3_model_key: `7796f75c-f8f5-4707-901d-edcca3599326` (required, string)
+    + s3_model_key: 7796f75c-f8f5-4707-901d-edcca3599326 (required, string)
     + s3_json_key: 7796f75c-f8f5-4707-901d-edcca3599326 (required, string)
 
 + Request (application/json)
