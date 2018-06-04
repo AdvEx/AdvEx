@@ -81,6 +81,8 @@ API documentation of AdvEx's backend.
 + Request (application/json)
 
 + Response 200
+    + Attributes (object)
+        + user_id: 1 (required, string)
 
 + Response 401
 
