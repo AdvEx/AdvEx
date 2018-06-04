@@ -37,7 +37,7 @@ API documentation of AdvEx's backend.
 
 + Response 200 (application/json)
     + Attributes (object)
-        + submission_ids: 1, 2, 3 (required, array[string])
+        + submissions: (array[Submission])
 
 ## Submission [/submissions/{submission_id}]
 
@@ -47,22 +47,26 @@ API documentation of AdvEx's backend.
 + Attributes (object)
     + submission_id: 1 (required, string)
     + user_id: 1 (required, string)
-    + s3_model_key: 7796f75c-f8f5-4707-901d-edcca3599326 (required, string)
-    + s3_json_key: 7796f75c-f8f5-4707-901d-edcca3599326 (required, string)
-    + created_at: 2014-11-11T08:40:51.620Z (required, string)
+    + model_name: `VGG-16 v1.0` (required, string)
+    + status: `submitted` (required, string) - One of [submitted, running, finished]
+    + created_at: `2018-05-01T08:40:51.620Z` (required, string)
 
 ### Get detail of a submission [GET]
 
 + Response 200 (application/json)
-    + Attributes (Submission)
+    + Attributes (object)
+        + submission_id: 1 (required, string)
+        + user_id: 1 (required, string)
+        + model_name: `VGG-16 v1.0` (required, string)
+        + status: `submitted` (required, string) - One of [submitted, running, finished]
+        + created_at: `2018-05-01T08:40:51.620Z` (required, string)
+        + feedback (required, object) - Refer to sample feedback JSON
 
 ### Update feedback of a submission [POST]
 
 + Attributes (object)
     + submission_id: 1 (required, string)
-    + feedback (required, object)
-        + score: 0.99 (required, number)
-        + img_urls: dummy.com/1.jpg, dummy.com/2.jpg (required, array[string])
+    + feedback (required, object) - Refer to sample feedback JSON
 
 + Response 200
 
@@ -88,8 +92,9 @@ API documentation of AdvEx's backend.
 
 + Attributes (object)
     + user_id: 1 (required, string)
-    + s3_model_key: 7796f75c-f8f5-4707-901d-edcca3599326 (required, string)
-    + s3_json_key: 7796f75c-f8f5-4707-901d-edcca3599326 (required, string)
+    + model_name: `VGG-16 v1.0` (required, string)
+    + s3_model_key: `7796f75c-f8f5-4707-901d-edcca3599326` (required, string)
+    + s3_json_key: `7796f75c-f8f5-4707-901d-edcca3599327` (required, string)
 
 + Request (application/json)
 
