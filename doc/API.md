@@ -23,9 +23,7 @@ API documentation of AdvEx's backend.
 + Parameters
     + user_id: 1 (required, string) - ID of the user
 
-+ Request (application/json)
-    + Attributes (object)
-        + token: `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9` (required, string) - Authentication token
++ Request
 
 + Response 200 (application/json)
     + Attributes (object)
@@ -37,9 +35,7 @@ API documentation of AdvEx's backend.
 + Parameters
     + user_id: 1 (required, string) - ID of the user
     
-+ Request (application/json)
-    + Attribute (object)
-        + token: `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9` (required, string) - Authentication token
++ Request
 
 + Response 200 (application/json)
     + Attributes (object)
@@ -58,10 +54,7 @@ API documentation of AdvEx's backend.
 
 ### Get detail of a submission [GET]
 
-+ Request (application/json)
-    + Attributes (object)
-        + user_id: 1 (required, string)
-        + token: `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9` (required, string) - Authentication token
++ Request
 
 + Response 200 (application/json)
     + Attributes (object)
@@ -99,7 +92,6 @@ API documentation of AdvEx's backend.
 
 + Attributes (object)
     + user_id: 1 (required, string)
-    + token: `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9` (required, string) - Authentication token
 
 + Request (application/json)
 
@@ -113,7 +105,6 @@ API documentation of AdvEx's backend.
         + model_name: `VGG-16 v1.0` (required, string)
         + s3_model_key: `7796f75c-f8f5-4707-901d-edcca3599326` (required, string)
         + s3_json_key: `7796f75c-f8f5-4707-901d-edcca3599327` (required, string)
-        + token: `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9` (required, string) - Authentication token
 
 + Response 200 (application/json)
     + Attributes (object)
