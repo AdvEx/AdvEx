@@ -47,6 +47,7 @@ API documentation of AdvEx's backend.
     + submission_id: 1 (required, string) - ID of the submission
 
 + Attributes (object)
+    + submission_id: 1 (required, string)
     + user_id: 1 (required, string)
     + model_name: `VGG-16 v1.0` (required, string)
     + status: `submitted` (required, string) - One of [submitted, running, finished]
