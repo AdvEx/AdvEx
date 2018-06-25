@@ -105,7 +105,7 @@ API documentation of AdvEx's backend.
         + user_id: 1 (required, string)
         + model_name: `VGG-16 v1.0` (required, string)
         + s3_model_key: `7796f75c-f8f5-4707-901d-edcca3599326` (required, string)
-        + s3_json_key: `7796f75c-f8f5-4707-901d-edcca3599327` (required, string)
+        + s3_index_key: `7796f75c-f8f5-4707-901d-edcca3599327` (required, string)
 
 + Response 200 (application/json)
     + Attributes (object)
