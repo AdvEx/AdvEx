@@ -14,7 +14,7 @@ Assessing robustness of machine learning models against adversarial examples.
 - [Backend](https://github.com/ShangwuYao/AdvEx_BE)
 - [Evaluation](https://github.com/ShangwuYao/AdvEx_Evaluation)
 - [Prototype](https://github.com/dnc1994/AdvEx-Alpha)
-- [Credentials(Private)](https://github.com/dnc1994/AdvEx-Secrets)
+- [Credentials (Private)](https://github.com/dnc1994/AdvEx-Secrets)
 
 ## Authors
 
