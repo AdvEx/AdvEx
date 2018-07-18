@@ -6,7 +6,7 @@ Assessing robustness of machine learning models against adversarial examples.
 
 ## Documentation
 
-- [Deployment Steps](https://github.com/dnc1994/AdvEx/blob/master/docs/DEPLOYMENT.md)
+- [Deployment Instruction](https://github.com/dnc1994/AdvEx/blob/master/docs/DEPLOYMENT.md)
 
 ## Repositories
 
