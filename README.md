@@ -1,12 +1,12 @@
 # AdvEx
 
-Capsonte Project of CMU MITS Program (2017 - 2018).
+Capstone Project of CMU MITS Program (2017 - 2018).
 
 Assessing robustness of machine learning models against adversarial examples.
 
 ## Documentation
 
-- [Deployment Instruction](https://github.com/dnc1994/AdvEx/blob/master/docs/DEPLOYMENT.md)
+- [Deployment Instructions](https://github.com/dnc1994/AdvEx/blob/master/docs/DEPLOYMENT.md)
 
 ## Repositories
 
