@@ -1,4 +1,4 @@
-# AdvEx Deployment Instruction
+# AdvEx Deployment Instructions
 
 ## Disclaimer
 
