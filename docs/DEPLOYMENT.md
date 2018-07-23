@@ -1,5 +1,12 @@
 # AdvEx Deployment Instruction
 
+## Disclaimer
+
+This document is intended for developers with basic understanding of Web development and Amazon Web Services. We recommend the following resources if you need some catch-up materials:
+
+- [Web Technology for Developers](https://developer.mozilla.org/en-US/docs/Web)
+- [Getting Started on Amazon Web Services (AWS)](https://aws.amazon.com/getting-started/)
+
 ## AWS Resources Setup
 
 ### AWS Credentials Setup
