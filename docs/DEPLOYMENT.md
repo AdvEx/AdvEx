@@ -74,7 +74,7 @@ Follow this [instruction](https://github.com/dnc1994/AdvEx-FE/blob/master/docs/d
         - `AWS_SECRET_ACCESS_KEY`
         - `SQLALCHEMY_DATABASE_URI`: the database URL for the RDS instance you've created. It should be in the format of `postgresql+psycopg2://<username>:<password>@<endpoint>:<port>/<database_name>`. The endpoint is available in the RDS dashboard.
     - Under "Instances", change EC2 instance type to what best fits your expected production scale.
-    - Under "Capaciy", change environment type from single-instance to load-balanced. Configurated the scaling rules as needed.
+    - Under "Capacity", change environment type from single-instance to load-balanced. Configurated the scaling rules as needed.
 
 5. Repeat steps 3 - 4 for backend and evaluation worker. Note that for the worker you need to select "Worker" when creating the new environment.
 
