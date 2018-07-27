@@ -96,7 +96,7 @@ Assuming that you already own a domain name, there are several places where you 
 ### Enable HTTPS
 
 1. Go to [AWS Certificate Manager](https://aws.amazon.com/certificate-manager/) web console.
-2. Request a certificate for your domain name. To validate ownership of the domain name, typicall you need to edit its DNS configuration as instructed. If you purchase the domain name through AWS, this is an one-click process.
+2. Request a certificate for your domain name. To validate ownership of the domain name, typically you need to edit its DNS configuration as instructed. If you purchase the domain name through AWS, this is an one-click process.
 3. Do the same for the `api` sub-domain.
 4. After both certificates are issued, go to configuration panel of the frontend environment in Elastic Beanstalk web console. Under "Load Balancer", add a new listener:
     - Port: 443
