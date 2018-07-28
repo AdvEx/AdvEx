@@ -25,7 +25,7 @@ In this project, you need to set up 3 fields:
 
 2. Create a new Bucket. Configurate the options as needed.
 
-3. In this bucket, create a folder named `evaluation_data`. Upload `image_data_final.zip` to that folder. Instructions about how to generate the evaluation datasets can be found [here](TODO).
+3. In this bucket, create a folder named `evaluation_data`. Upload `image_data_final.zip` to that folder. Instructions about how to generate the evaluation datasets can be found [here](https://github.com/ShangwuYao/AdvEx_Evaluation/blob/master/src/README.md).
 
 4. In `AdvEx-Evaluation/src/evaluation_worker.py`, change the bucket name accordingly.
 
