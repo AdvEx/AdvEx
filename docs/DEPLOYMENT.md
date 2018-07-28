@@ -91,7 +91,7 @@ Assuming that you already own a domain name, there are several places where you 
 2. Create a new Hosted Zone
 3. Associate it with your domain name (setting up NS and SOA records). If you purchase the domain name through AWS, this part is automatically done.
 4. Create an `A` record that points your domain to an "Alias Target" of the frontend environment you created with Elastic Beanstalk (it will be listed in the dropdown).
-5. Similarly, create a `A` record that points the `api` sub-domain to the backend environment. 
+5. Similarly, create an `A` record that points the `api` sub-domain to the backend environment. 
 
 ### Enable HTTPS
 
