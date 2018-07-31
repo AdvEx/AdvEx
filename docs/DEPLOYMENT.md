@@ -23,7 +23,7 @@ In this project, you need to set up 3 fields:
 
 1. Go to [Amazon S3](https://aws.amazon.com/s3/) web console.
 
-2. Create a new Bucket. Configurate the options as needed.
+2. Create a new Bucket. Configure the options as needed.
 
 3. In this bucket, create a folder named `evaluation_data`. Upload `image_data_final.zip` to that folder. Instructions about how to generate the evaluation datasets can be found [here](https://github.com/ShangwuYao/AdvEx_Evaluation/blob/master/src/README.md).
 
@@ -31,13 +31,13 @@ In this project, you need to set up 3 fields:
 
 ### Lambda & API Gateway
 
-Follow this [instruction](https://github.com/dnc1994/AdvEx-FE/blob/master/docs/dropzone.md) to configurate Lambda and API Gateway, which will enable direct uploading to S3 from browser.
+Follow this [instruction](https://github.com/dnc1994/AdvEx-FE/blob/master/docs/dropzone.md) to configure Lambda and API Gateway, which will enable direct uploading to S3 from browser.
 
 ### SQS
 
 1. Go to [Amazon Simple Queue Service](https://aws.amazon.com/sqs/) web console.
 
-2. Create a new Standard Queue. Configurate the options as needed. Note that the visibility timeout should typically be increased from the default value to 30 seconds. In this project, it's safe to set it to the maximum 12 hours.
+2. Create a new Standard Queue. Configure the options as needed. Note that the visibility timeout should typically be increased from the default value to 30 seconds. In this project, it's safe to set it to the maximum 12 hours.
 
 3. In `AdvEx-BE/app.py`, change the queue name accordingly.
 
@@ -49,7 +49,7 @@ Follow this [instruction](https://github.com/dnc1994/AdvEx-FE/blob/master/docs/d
 
 2. Create a DB instance with "PostgreSQL"as the engine.
 
-3. Configurate the options as needed. Save the Master password for later use.
+3. Configure the options as needed. Save the Master password for later use.
 
 ## Deployment with Elastic Beanstalk
 
@@ -74,11 +74,11 @@ Follow this [instruction](https://github.com/dnc1994/AdvEx-FE/blob/master/docs/d
         - `AWS_SECRET_ACCESS_KEY`
         - `SQLALCHEMY_DATABASE_URI`: the database URL for the RDS instance you've created. It should be in the format of `postgresql+psycopg2://<username>:<password>@<endpoint>:<port>/<database_name>`. The endpoint is available in the RDS dashboard.
     - Under "Instances", change EC2 instance type to what best fits your expected production scale.
-    - Under "Capacity", change environment type from single-instance to load-balanced. Configurated the scaling rules as needed.
+    - Under "Capacity", change environment type from single-instance to load-balanced. Configured the scaling rules as needed.
 
 5. Repeat steps 3 - 4 for backend and evaluation worker. Note that for the worker you need to select "Worker" when creating the new environment.
 
-### Configurate Domain Name
+### Configure Domain Name
 
 Assuming that you already own a domain name, there are several places where you need to set it:
 
@@ -112,5 +112,5 @@ You can also find the official guide for this process [here](https://docs.aws.am
 
 1. Install [Elastic Beanstalk CLI](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3.html)
 1. Go to `AdvEx-FE` folder and run `eb init`. You will need to select region, application and environment names so that it can find the corresponding environment you've set up previously.
-2. Run `eb deploy` and wait for the proccess to finish.
+2. Run `eb deploy` and wait for the process to finish.
 3. Do the same for backend and evaluation worker.
