@@ -6,10 +6,10 @@ Assessing robustness of machine learning models against adversarial examples.
 
 [Video Demo](https://www.youtube.com/watch?v=KJ1zZsia5yQ).
 
-## Guides
+## Documentation
 
 - [Deployment Instructions](https://github.com/AdvEx/AdvEx/blob/master/docs/DEPLOYMENT.md)
-- [Evaluation Core Algorithm](https://github.com/ShangwuYao/AdvEx_Evaluation/blob/master/src/README.md)
+- [Evaluation Algorithm Write-up](https://github.com/ShangwuYao/AdvEx_Evaluation/blob/master/src/README.md)
 - [User Manual](https://drive.google.com/file/d/1pF-8ua3siwjLtv8VMhDLpIdontqFJ18t/view?usp=sharing)
 - [System Architecture Document](https://drive.google.com/file/d/1HLcnypR9BlCeb3HzXlZNdu7IDcVYRT8U/view?usp=sharing)
 
