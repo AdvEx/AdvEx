@@ -4,16 +4,21 @@ Capstone Project of CMU MITS Program (2017 - 2018).
 
 Assessing robustness of machine learning models against adversarial examples.
 
-## Documentation
+[Video Demo](https://www.youtube.com/watch?v=KJ1zZsia5yQ).
 
-- [Deployment Instructions](https://github.com/dnc1994/AdvEx/blob/master/docs/DEPLOYMENT.md)
+## Guides
+
+- [Deployment Instructions](https://github.com/AdvEx/AdvEx/blob/master/docs/DEPLOYMENT.md)
+- [Evaluation Core Algorithm](https://github.com/ShangwuYao/AdvEx_Evaluation/blob/master/src/README.md)
+- [User Manual](https://drive.google.com/file/d/1pF-8ua3siwjLtv8VMhDLpIdontqFJ18t/view?usp=sharing)
+- [System Architecture Document](https://drive.google.com/file/d/1HLcnypR9BlCeb3HzXlZNdu7IDcVYRT8U/view?usp=sharing)
 
 ## Repositories
 
-- [Frontend](https://github.com/dnc1994/AdvEx-FE)
+- [Frontend](https://github.com/AdvEx/AdvEx-FE)
 - [Backend](https://github.com/ShangwuYao/AdvEx_BE)
 - [Evaluation](https://github.com/ShangwuYao/AdvEx_Evaluation)
-- [Prototype](https://github.com/dnc1994/AdvEx-Alpha)
+- [Prototype](https://github.com/AdvEx/AdvEx-Alpha)
 
 ## Authors
 
